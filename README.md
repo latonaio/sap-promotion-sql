@@ -11,8 +11,8 @@ https://api.sap.com/api/promotion/overview
 ## sqlの設定ファイル
 sap-promotion-sql には、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
 
-* sap-promotion-collection-data.sql（SAP プロモーション - プロモーションデータ）  
-* sap-promotion-collection-sql-promotion-party-data.sql（SAP プロモーション - プロモーション情報データ）   
+* sap-promotion-sql-promotion-collection-data.sql（SAP プロモーション - プロモーションデータ）  
+* sap-promotion-sql-promotion-party-data.sql（SAP プロモーション - プロモーション関係者データ）   
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。

@@ -1,12 +1,12 @@
-CREATE TABLE `sap_promotion_collection_data`
-(          
+CREATE TABLE `sap_promotion_promotion_collection_data`
+(
+			`ID`                                    varchar(35) NOT NULL,
             `ObjectID`                              varchar(70) DEFAULT NULL,
 			`ETag`                                  tinyint(1) DEFAULT NULL,
 			`AccountType`                           varchar(2) DEFAULT NULL,
 			`AccountTypeText`                       tinyint(1) DEFAULT NULL,
 			`Currency`                              varchar(3) DEFAULT NULL,
 			`CurrencyText`                          tinyint(1) DEFAULT NULL,
-			`ID`                                    varchar(35) NOT NULL,
 			`Name`                                  varchar(40) DEFAULT NULL,
 			`Objective`                             varchar(4) DEFAULT NULL,
 			`ObjectiveText`                         tinyint(1) DEFAULT NULL,
